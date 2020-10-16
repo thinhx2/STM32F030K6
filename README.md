@@ -15,28 +15,20 @@ An ST development board based on the rSTM32F030K6T6/rSTM32F030K6 (Clock: 48MHz, 
 - Edit the **"boards.txt"** file, in win7 is located at a lever up than the "variants" folder, search for the **F030F4** board and add the lines to leave as I show you next:
 ```
 # DEMO_F030F4 board
-# Support: Serial1 (USART1 on PA3, PA2)
 GenF0.menu.pnum.DEMO_F030F4=STM32F030F4 Demo board
 GenF0.menu.pnum.DEMO_F030F4.upload.maximum_data_size=4096
 GenF0.menu.pnum.DEMO_F030F4.upload.maximum_size=16384
-GenF0.menu.pnum.DEMO_F030F4.build.mcu=cortex-m0
 GenF0.menu.pnum.DEMO_F030F4.build.board=DEMO_F030F4
-GenF0.menu.pnum.DEMO_F030F4.build.series=STM32F0xx
 GenF0.menu.pnum.DEMO_F030F4.build.product_line=STM32F030x6
 GenF0.menu.pnum.DEMO_F030F4.build.variant=DEMO_F030F4
-GenF0.menu.pnum.DEMO_F030F4.build.cmsis_lib_gcc=arm_cortexM0l_math
 
 # DEMO_F030K6 board
-# Support: Serial1 (USART1 on PA3, PA2)
 GenF0.menu.pnum.DEMO_F030K6=STM32F030K6 Demo board
 GenF0.menu.pnum.DEMO_F030K6.upload.maximum_data_size=4096
 GenF0.menu.pnum.DEMO_F030K6.upload.maximum_size=32768
-GenF0.menu.pnum.DEMO_F030K6.build.mcu=cortex-m0
 GenF0.menu.pnum.DEMO_F030K6.build.board=DEMO_F030K6
-GenF0.menu.pnum.DEMO_F030K6.build.series=STM32F0xx
 GenF0.menu.pnum.DEMO_F030K6.build.product_line=STM32F030x6
 GenF0.menu.pnum.DEMO_F030K6.build.variant=DEMO_F030K6
-GenF0.menu.pnum.DEMO_F030K6.build.cmsis_lib_gcc=arm_cortexM0l_math
 ```
 
 ## Files and Folders description
