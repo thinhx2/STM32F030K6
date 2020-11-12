@@ -126,11 +126,11 @@ extern "C"{
 //#define PWM_MAX_DUTY_CYCLE      255
 
 // On-board LED pin number
-#define LED_BUILTIN             PA4
+#define LED_BUILTIN             PA8
 #define LED_GREEN               LED_BUILTIN
 
 // On-board user button
-#define USER_BTN                x
+#define USER_BTN                PA0
 
 // Below SPI and I2C definitions already done in the core
 // Could be redefined here if differs from the default one
