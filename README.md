@@ -7,6 +7,17 @@ An ST development board based on the rSTM32F030K6T6/rSTM32F030K6 (Clock: 48MHz, 
 
 <img align="top" width=80% src="rSTM32F030K6T6.front.jpg" />
 
+# STM32F030K6T6 DEV KIT by AESHOP
+It have a USER button connected to PA0 and LED BUILTIN coneected to PA8.
+
+Pinout : 
+<img align="top" width=80% src="Shopee_7753db56f1c65fbf833841bef2d043a8.jpg" />
+
+Front :
+<img align="top" width=80% src="Shopee_ca96633ec7c97a9e7ae24ffa6923921d.jpg" />
+
+Back : 
+<img align="top" width=80% src="Shopee_401dae6e24bf92ab1f381585554cade4.jpg" />
 
 ## Install
 - This requires the [STM32 core for arduino](https://github.com/stm32duino/Arduino_Core_STM32/), the ST original.
